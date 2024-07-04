@@ -1,5 +1,6 @@
 .body {
     background-color: #EFF3F6;
+    font-family: Nantes;
 }
 .menu-active {
     display: block !important;
@@ -70,7 +71,31 @@ line-height: normal;
 .potential-future-img img {
     width: 100%;
 }
+/* Potential Future Listings End */
 
+/* <!-- Footer Start--> */
+footer address h3{
+    color: black;
+    font-family: "Messina Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer address p {
+    color: black;
+    font-family: "Messina Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+/* <!-- Footer End--> */
+
+
+
+/* Media Query Start */
 @media (min-width: 640px) {
     .potential-future-img {
         grid-template-columns: repeat(2, 1fr);
@@ -94,24 +119,4 @@ line-height: normal;
         grid-template-columns: repeat(5, 1fr);
     }
 }
-/* Potential Future Listings End */
-
-/* <!-- Footer Start--> */
-footer address h3{
-    color: black;
-    font-family: "Messina Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-footer address p {
-    color: black;
-    font-family: "Messina Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-}
-/* <!-- Footer End--> */
+/* Media Query End */
