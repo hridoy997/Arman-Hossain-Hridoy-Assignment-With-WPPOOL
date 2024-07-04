@@ -24,9 +24,9 @@
 
 
 </head>
-<body class="body px-7">
+<body class="body md:px-6">
     
-    <!-- Navbar -->
+    <!-- Navbar Start-->
     <nav class="navbar p-4 bg-primary">
         <div class="flex justify-between items-center container mx-auto">
             <a class="flex items-center text-xl font-bold">
@@ -62,10 +62,59 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar Emd-->
     
     <main class="w-full">
+
+        <!-- Hero Section Start -->
+        <section class="hero-bg w-full flex flex-col md:flex-row gap-6 md:justify-between items-center h-screen p-8 ">
+            <div class="space-y-8 text-center md:text-left">
+                <div class="space-y-2">
+                    <p class="text-4xl font-bold">60</p>
+                    <p>Companies</p>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-4xl font-bold">$100B</p>
+                    <p>Market cap</p>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-4xl font-bold">3.5x</p>
+                    <p>Revenue multiple</p>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-4xl font-bold">60%</p>
+                    <p>LTM avg. revenue growth rate</p>
+                </div>
+            </div>
+            <div class="text-center md:text-left">
+                <h1 class="text-6xl font-bold mb-6">The WPPOOL Index</h1>
+                <p class="text-2xl">Monitor the performance of emerging, publicly traded, financial technology companies</p>
+            </div>
+        </section>
+    
+        <div class="absolute hidden md:block bottom-0 right-20">
+            <button class="bg-white text-blue-600 p-4 rounded-full">&#8681;</button>
+        </div>
+
+        <!-- Hero Section End -->
+
+        <!-- <section class="hero-section relative bg-primary h-screen py-28 flex flex-col justify-center items-center">
+            <div class="top-content  ">
+                <h1>The WPPOOL Index</h1>
+                <p>Monitor the performance of emerging, publicly traded, financial technology companies</p>
+            </div>
+            <div>
+                <div><h1>Lorem ipsum dolor sit amet.</h1></div>
+                <div><h1>Lorem ipsum dolor sit amet.</h1></div>
+                <div><h1>Lorem ipsum dolor sit amet.</h1></div>
+                <div><h1>Lorem ipsum dolor sit amet.</h1></div>
+                <div><h1>Lorem ipsum dolor sit amet.</h1></div>
+                
+            </div>
+        </section> -->
+
         <!-- Companies Section Start -->
-        <section class="w-full p-8 bg-white rounded-lg shadow-md md:mb-12">
+        <section class="w-full p-8 bg-white rounded-lg shadow-md my-8 md:my-14">
             <div class="flex flex-col md:flex-row justify-between items-center mb-6">
                 <h1 class="text-black text-3xl md:text-5xl mb-4 md:mb-0">All Companies</h1>
                 <div class="flex justify-between w-full md:w-[588px]">
@@ -215,6 +264,7 @@
                 </table>
             </div>
         </section>
+
         <!-- All Companies Button Section Start  -->
         <div class="flex flex-col md:flex-row justify-center mt-6 space-y-4 md:space-y-0 md:space-x-4 p-5 md:p-0 mb-5 md:mb-[150px]">
             <button class="bg-blue-600 text-white py-2 px-4 rounded-lg w-full md:w-auto">Download 'All Companies' Data</button>
