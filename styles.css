@@ -1,0 +1,81 @@
+.body {
+    background-color: #EFF3F6;
+}
+.menu-active {
+    display: block !important;
+}
+
+/* Potential Future Listings Start */
+.potential-future-img{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.potential-future-img div {
+    width: 100%;
+    max-width: 220px;
+    height: 100px;
+    padding: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.potential-future-img img {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .potential-future-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .potential-future-img {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .potential-future-img {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1280px) {
+    .potential-future-img {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+/* Potential Future Listings End */
+
+/* <!-- Selected WPPOOL Portfolio Companies section Start  --> */
+
+
+
+/* <!-- Selected WPPOOL Portfolio Companies section End  --> */
+
+
+/* <!-- Footer Start--> */
+footer address h3{
+    color: black;
+    font-family: "Messina Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer address p {
+    color: black;
+    font-family: "Messina Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+/* <!-- Footer End--> */
