@@ -9,43 +9,12 @@
 /* hero-section start */
 .hero-bg {
     background-color: #2042B6;
-    /* background-image: url('asset/Asset\ 1.png'); */
+    background-image: url('asset/Asset11.png');
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     /* mix-blend-mode: color-burn; */
-}
-
-
-
-.hero-section::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
-    background: url(asset/Asset\ 1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* transform: translate(50%); */
-    /* left: 0;
-    right: 0; */
-    background-position: center;
-    mix-blend-mode: color-burn;
-}
-.hero-section .top-content h1{
-    color: var(--White, #FFF);
-font-family: Nantes;
-font-size: 78px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.hero-section .top-content p {
-    color: wheat;
 }
 /* hero-section end  */
 
