@@ -14,9 +14,13 @@
         tailwind.config = {
             theme: {
                 extend: {
-                colors: {
-                    primary: '#2042B6',
-                }
+                    colors: {
+                        primary: '#2042B6',
+                    },
+                    backgroundImage: {
+                        'hero-bg': "url('asset/Asset11.png')",
+                        'custom-bg': "url('asset/Rectangle 11.png')",
+                    }   
                 }
             }
         }
@@ -67,7 +71,7 @@
     <main class="w-full">
 
         <!-- Hero Section Start -->
-        <section class="hero-bg w-full flex flex-col md:flex-row justify-between items-center h-screen p-8 text-white">
+        <section class="hero-bg bg-hero-bg bg-no-repeat bg-contain bg-center w-full flex flex-col md:flex-row justify-between items-center h-screen p-8 text-white">
             <div class="space-y-8 text-center md:text-left">
                 <div class="space-y-2">
                     <p class="text-4xl font-bold">60</p>
@@ -86,7 +90,7 @@
                     <p>LTM avg. revenue growth rate</p>
                 </div>
             </div>
-            <div class="text-center md:text-left">
+            <div class="text-content text-center w-full">
                 <h1 class="text-6xl font-bold mb-6">The WPPOOL Index</h1>
                 <p class="text-2xl">Monitor the performance of emerging, publicly traded, financial technology companies</p>
             </div>
@@ -282,8 +286,70 @@
         <!-- Potential Future Listings Section End-->
 
         <!-- State of USA Section start  -->
-        <section class="px-4 md:px-14 mb-14">
-            <h1 class="text-black text-center md:text-left text-3xl md:text-5xl mb-4 md:mb-12">State of USA</h1>
+        <section class="slider-sections h-screen bg-custom-bg bg-no-repeat bg-contain bg-right px-4 md:px-14 mb-14 ">
+            <div class="top-content">
+                <h1 class="text-black text-center md:text-left text-3xl md:text-5xl md:mb-5">State of USA</h1>
+                <div class="">
+                    <button class="bg-blue-600 text-3xl text-white px-4 py-2 rounded-full">
+                        <div class="inline-flex items-center px-4">
+                            2024
+                            <img class="ml-[20px]" src="asset/arrow_drop_down.png" alt="Arrow Drop Down">
+                        </div>
+                    </button>
+                </div>
+                <p class="mt-2 text-gray-600 text-[20px]">Click through the slides or download the report to view natively on your device.</p>
+            </div>
+
+            <div class="slider-container w-full max-w-6xl mx-auto my-10">
+                <div class="slider flex">
+                    <div class="slider-item w-[600px]">
+                        <img src="asset/rgegdg.png" alt="Slide 1">
+                    </div>
+                    <div class="slider-item w-[600px]">
+                        <img src="asset/rgegdg.png" alt="Slide 2">
+                    </div>
+                    <div class="slider-item w-[600px]">
+                        <img src="asset/rgegdg.png" alt="Slide 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-content flex justify-between">
+                <div class="flex items-center gap-6 text-black">
+                    <div class="buttom-left flex gap-5">
+                        <div class="w-14 h-14 flex items-center justify-center">
+                            <button class="bg-white text-blue-600 w-14 h-14 p-4 rounded-full flex items-center justify-center">
+                                <img src="asset/arrow_downward_altarrow_downward_alt.png" alt="Arrow Icon" class="transform rotate-90">
+                            </button>
+                        </div>
+                        <div class="w-14 h-14 flex items-center justify-center">
+                            <button class="bg-white text-blue-600 w-14 h-14 p-4 rounded-full flex items-center justify-center">
+                                <img src="asset/arrow_downward_altarrow_downward_alt.png" alt="Arrow Icon" class="transform -rotate-90">
+                            </button>
+                        </div>
+                    </div>
+                    <div><p>Pages</p></div>
+                    <div class="flex items-center justify-center">
+                        <button class="bg-white p-4 rounded-full inline-flex items-center justify-center w-40 h-14">
+                            <span class="flex items-center justify-center">
+                                <p>1 and 2</p>
+                                <img class="ml-[20px]" src="asset/arrow_drop_down (2).png" alt="Arrow Drop Down">
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <p>of 37</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="border-2 rounded-full text-white bg-primary font-[16px] px-[20px] py-[10px]">
+                        Download the 2024 Report
+                    </button>
+                </div>
+            </div>
+            
+            
+
         </section>
         <!-- State of USA Section end  -->
 
@@ -478,6 +544,8 @@
 
     
     <script src="scripts.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </body>
 </html>

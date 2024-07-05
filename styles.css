@@ -9,18 +9,9 @@
 /* hero-section start */
 .hero-bg {
     background-color: #2042B6;
-    background-image: url('asset/Asset11.png');
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    /* mix-blend-mode: color-burn; */
 }
 
-
 /* arrow_downward_alt */
-
-
 
 /* hero-section end  */
 
@@ -47,6 +38,10 @@
     width: 100%;
 }
 /* Potential Future Listings End */
+
+/* State of USA section Start */
+
+/* State of USA section End */
 
 /* <!-- Footer Start--> */
 footer address h3{
